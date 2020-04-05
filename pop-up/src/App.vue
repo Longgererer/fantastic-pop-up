@@ -24,7 +24,7 @@
     </div>
     <popUp :pop="pop">
       <h3>我是标题</h3>
-      <p>
+      <p
         这里是内容，这里是内容，这里是内容，这里是内容，这里是内容，这里是内容，这里是内容，这里是内容
       </p>
     </popUp>
@@ -90,7 +90,6 @@ export default {
       this.confirm.isShow = true
     },
     openInfo(obj) {
-      console.log(obj)
       this[obj].isShow = true
     }
   }
